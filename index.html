@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>
+            The Lenses
+        </title>
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body onload="SearchRandom()">
+        <h1 id="header">The Lenses</h1>
+        <div class="wrapper">
+            <img id="picture" src="logo.png" alt="Logo">
+            <input type="text" id="Search" placeholder="Search......">
+            <button onclick="SearchImages()" id="searchbutton">Search</button>
+        </div>
+        <div class="tab">
+            <div>Space</div>
+        </div>
+        <div class="wrapper1">
+            <div id="click">
+                <button id="column" onclick="SearchNew()"><b>Best Content</b></button>
+                <button id="column" onclick="SearchTop()"><b>Top Content</b></button>
+                <button id="column" onclick="SearchLatest()"><b>New Content</b></button>
+            </div>
+            <div id="result"></div>
+            <div> </div>
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="script.js"></script>
+</html>

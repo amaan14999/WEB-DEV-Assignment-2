@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(241, 246, 249);
+}
+.tab{
+    display: grid;
+    grid-gap: 5px;
+    color: white;
+}
+#header{
+    font-family: 'Acme';
+    color: rgb(20, 39, 78);
+    text-align: center;
+    font-size: 50px;
+    font-stretch: ultra-expanded;
+}
+.wrapper{
+    display: grid;
+    grid-gap: 50px;
+    padding: 30px;
+    grid-template-columns: 15% 30% 10%;
+    font-family: 'Poppins';
+}
+#searchbutton{
+    padding: 10px;
+    color: aliceblue;
+    height: 64%;
+    background-color: rgb(155, 164, 180);
+    border-radius: 30px;
+    font-family: 'Acme';
+    font-size: medium;
+    border: solid;
+    box-shadow: 2px 5px ;
+    font-stretch: expanded;
+}
+#Search{
+    border-radius: 10px;
+    border: solid;
+    height: 24%;
+    color: rgb(32, 32, 32);
+    font-family: 'Poppins';
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 5px #888888;
+}
+.wrapper1{
+    display: grid;
+    grid-gap: 10px;
+    padding: 10px;
+    font-family: 'Poppins';
+    grid-template-columns: 15% 85% ;
+}
+#click{
+    border: 5px;
+    padding: 10px;
+    border-color: aliceblue;
+}
+#column{
+    padding: 10px;
+    border: groove;
+    border-color: rgb(8, 8, 8);
+    color: rgb(27, 27, 26);
+    width: 100%;
+    font-family: 'Acme';
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+    box-shadow: 2px 5px #888888;
+}
+#result{
+    padding: 30px;
+    width: 97%;
+    background-color:rgb(155, 164, 180);
+    border-radius: 10px;
+}
+#picture{
+  width: 100%;
+}
